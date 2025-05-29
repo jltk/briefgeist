@@ -3,12 +3,18 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
 [![python: 3.9+](https://img.shields.io/badge/python-3.9%2B-important.svg)](https://www.python.org/)  
 
-**Brifegeist** ist eine modulare Python-Suite zur automatisierten Verarbeitung, Analyse und Beantwortung deutscher Schriftstücke.  
-Sie kombiniert:
+**Briefgeist** is a privacy-first, local desktop assistant for automating the reading, analysis, and response of scanned physical letters.
 
 1. **Watcher-Service** (Watchdog) zum Echtzeit-Monitoring eingehender Scans  
 2. **OCR-Modul** (Tesseract) zur Textextraktion aus PDF-Scans  
 3. **Analyse-Engine** (lokales LLM via Ollama “gemma:7b”)  
+
+- 🖨️ Scan letters (via NAPS2)
+- 🧠 Analyze content with a local LLM (Gemma 7B via Ollama)
+- 🗣 Text-to-speech playback (Coqui TTS)
+- 📄 Suggest replies or fill forms
+- 🖥️ Simple GUI (NiceGUI)
+- 💻 100% offline, no cloud or telemetry
 
 ## 📦 Installation
 
@@ -18,17 +24,7 @@ cd Brifegeist
 python -m venv venv
 source venv/bin/activate  # bzw. venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
-
-**Briefgeist** is a privacy-first, local desktop assistant for automating the reading, analysis, and response of scanned physical letters.
-
-- 🖨️ Scan letters (via NAPS2)
-- 🧠 Analyze content with a local LLM (Gemma 7B via Ollama)
-- 🗣 Text-to-speech playback (Coqui TTS)
-- 📄 Suggest replies or fill forms
-- 🖥️ Simple GUI (NiceGUI)
-- 💻 100% offline, no cloud or telemetry
-
+```
 ---
 
 ## ✅ Features
