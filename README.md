@@ -1,20 +1,13 @@
-# Brifegeist
+# Briefgeist
 
 [![license: GPL](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)  
 [![python: 3.9+](https://img.shields.io/badge/python-3.9%2B-important.svg)](https://www.python.org/)  
 
 **Briefgeist** is a privacy-first, local desktop assistant for automating the reading, analysis, and response of scanned physical letters.
 
-1. **Watcher-Service** (Watchdog) zum Echtzeit-Monitoring eingehender Scans  
-2. **OCR-Modul** (Tesseract) zur Textextraktion aus PDF-Scans  
-3. **Analyse-Engine** (lokales LLM via Ollama “gemma:7b”)  
-
-- 🖨️ Scan letters (via NAPS2)
-- 🧠 Analyze content with a local LLM (Gemma 7B via Ollama)
-- 🗣 Text-to-speech playback (Coqui TTS)
-- 📄 Suggest replies or fill forms
-- 🖥️ Simple GUI (NiceGUI)
-- 💻 100% offline, no cloud or telemetry
+1. **Watcher service** (Watchdog) for real-time monitoring of incoming scans
+2. **OCR module** (Tesseract) for text extraction from PDF scans
+3. **Analysis Engine** (local LLM via Ollama “gemma:7b”)
 
 ## 📦 Installation
 
@@ -28,6 +21,13 @@ pip install -r requirements.txt
 ---
 
 ## ✅ Features
+
+- 🖨️ Scan letters (via NAPS2)
+- 🧠 Analyze content with a local LLM (Gemma 7B via Ollama)
+- 🗣 Text-to-speech playback (Coqui TTS)
+- 📄 Suggest replies or fill forms
+- 🖥️ Simple GUI (NiceGUI)
+- 💻 100% offline, no cloud or telemetry
 
 | Feature            | Status |
 |--------------------|--------|
