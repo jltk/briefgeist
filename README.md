@@ -1,6 +1,6 @@
 # Brifegeist
 
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
+[![license: GPL](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)  
 [![python: 3.9+](https://img.shields.io/badge/python-3.9%2B-important.svg)](https://www.python.org/)  
 
 **Briefgeist** is a privacy-first, local desktop assistant for automating the reading, analysis, and response of scanned physical letters.
