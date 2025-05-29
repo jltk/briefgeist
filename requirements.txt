@@ -1,0 +1,7 @@
+ocrmypdf
+pdfplumber
+watchdog
+nicegui
+pywin32
+requests
+TTS==0.22.0
