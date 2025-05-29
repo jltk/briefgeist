@@ -13,7 +13,7 @@
 
 ```bash
 git clone https://github.com/DeinUser/Brifegeist.git
-cd Brifegeist
+cd briefgeist
 python -m venv venv
 source venv/bin/activate  # bzw. venv\Scripts\activate on Windows
 pip install -r requirements.txt
