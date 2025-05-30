@@ -12,7 +12,7 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/jltk/Brifegeist.git
+git clone https://github.com/jltk/briefgeist.git
 cd briefgeist
 python -m venv venv
 source venv/bin/activate  # bzw. venv\Scripts\activate on Windows
